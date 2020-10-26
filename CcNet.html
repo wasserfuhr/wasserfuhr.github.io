@@ -1,0 +1,23 @@
+<!DOCTYPE html><html lang=""><head><title>CcNet - b</title></head><body><button onclick="a()">+</button><canvas height="600" id="c" width="1024"></canvas><script>
+function a(){
+ b.webkitRequestFullscreen()
+ e()}
+b=document.getElementById('c')
+c=b.getContext('2d')
+c.lineWidth=1.3
+f={ae:[332,264,'sa om'],af:[336,200,'cn ir pk tj tm uz'],am:[320,196,'az ge ir tr'],ao:[288,404,'cd na zm'],ar:[136,460,'bo br cl py uy'],at:[288,204,'ch cz de hu it sk sl'],au:[448,428],az:[320,180,'ge ir ru'],bd:[376,236,'in mm'],be:[260,188,'de fr nl lu'],bf:[264,276,'bj ci ml ne'],bg:[304,196,'ro tr'],bj:[268,284,'ne ng'],bo:[136,364,'br cl pe py'],br:[176,332,'co gf gy pe py sr uy ve'],bw:[296,412,'na za zw'],by:[304,164,'pl ru ua'],bz:[132,196,'gt mx'],ca:[112,124,'us'],cd:[296,316,'cf cg ss ug zm'],cf:[288,284,'cg cm sd ss td'],cg:[284,304,'cm'],ch:[272,204,'de fr it'],ci:[248,288,'gn ml'],cl:[128,396,'pe'],cm:[280,292,'ng td'],cn:[384,204,'in kg kp kz la mm mn pk ru tj vn'],co:[128,268,'ec pa ve'],cr:[112,252,'ni pa'],cz:[288,188,'de pl sk'],de:[280,176,'dk fr nl lu pl'],dk:[280,140],dz:[266,252,'ly ml mr ne tn'],ec:[120,300,'pe'],eg:[304,260,'il ly sd'],es:[248,236,'fr pt'],fi:[304,132,'no ru se'],fr:[256,220,'it lu'],ge:[312,180,'ru tr'],gf:[160,268,'gy sr'],gn:[244,280,'ml sn'],gr:[304,204,'bg tr'],gt:[128,204,'hn mx sv'],gy:[144,268,'ve'],hn:[128,220,'ni sv'],hu:[296,196,'ro sk sl ua'],id:[392,308,'my tl'],il:[312,256,'jo lb'],in:[360,244,'mm pk'],iq:[318,236,'ir jo kw sa sy tr'],ir:[332,208,'pk tm tr'],it:[280,220,'sl'],jo:[316,252,'sa sy'],jp:[440,172],kb:[396,252,'la th vn'],ke:[312,300,'ss tz ug'],kg:[348,176,'kz tj uz'],kp:[432,172,'kr ru'],kr:[432,188],kw:[324,248,'sa'],kz:[352,164,'ru tm uz'],la:[392,240,'th vn'],lb:[312,244,'sy'],lu:[264,192],ly:[288,252,'ne td tn'],ml:[264,268,'mr ne'],mm:[384,236,'th'],mn:[384,172,'ru'],mr:[240,268,'sn'],mw:[308,364,'mz tz zm'],mx:[128,188,'us'],my:[396,284,'sg th'],mz:[312,332,'tz zw'],na:[288,420,'za zm'],ne:[272,268,'ng td'],ng:[272,284,'td'],ni:[120,236],nl:[268,172],no:[288,108,'ru se'],nz:[480,412],om:[332,284,'sa ye'],pa:[120,260],pe:[128,332],ph:[432,236],pk:[352,220],pl:[288,172,'ua'],pt:[240,244],py:[148,388],qa:[328,256,'sa'],ro:[304,188,'ua'],ru:[352,128,'ua'],sa:[324,272,'ye'],sd:[304,276,'ss td'],se:[296,132],sg:[388,300],sk:[296,188,'pl ua'],sl:[288,216],sn:[236,276],sr:[152,268],ss:[304,284],st:[266,300],sv:[124,212],sy:[312,228,'tr'],td:[288,268],th:[388,244],tj:[340,196,'tm uz'],tl:[404,332],tm:[332,184,'uz'],tn:[272,244],tr:[312,208],tw:[424,236],tz:[308,316,'ug zm'],ua:[304,180],ug:[304,300,'ss'],uk:[256,164],us:[128,156],uy:[160,428],uz:[340,184],vn:[400,236],ve:[136,252],ye:[328,288],za:[296,428,'zw'],zm:[300,388,'zw'],zw:[304,412],}
+function d(t){
+ c.fillStyle='#0f0'
+ c.fillRect(2*f[t][0]-2,f[t][1]-2,5,5)
+ c.strokeStyle='#0f0'
+ if(f[t][2])
+  f[t][2].split(' ').forEach(k=>{
+   c.beginPath()
+   c.moveTo(2*f[t][0],f[t][1])
+   c.lineTo(2*f[k][0],f[k][1])
+   c.stroke()})}
+function e(){
+ c.fillStyle='#000'
+ c.fillRect(0,0,1024,600)
+ Object.keys(f).forEach(k=>d(k))}
+e()</script></body></html>
